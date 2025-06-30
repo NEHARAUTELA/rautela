@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website designing -K2inofocom</title>
+    <!---external css ---->
+    <link rel="stylesheet" href="style.css">
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+       <div class="profile-card"> 
+            <div class="profile-pic">
+                <img src="data:image/jpeg;base64,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">
+            </div>
+
+            <div class="profile-details">
+                 <div class="intro">
+                    <h2>NehaRautela</h2>
+                    <h4>UI/UX Designer</h4>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
+                        <a href="#"><i class="fab fa-twitter"  style="color:var(--skyblue)"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                 </div>
+
+                 <div class="contact-info">
+                    <div class="row">
+                         <div class="icon">
+                            <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
+                         </div>
+                         <div class="content">
+                            <span>Phone</span>
+                            <h5>7505677092</h5>
+                         </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="icon">
+                           <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
+                        </div>
+                        <div class="content">
+                           <span>Email</span>
+                           <h5>rautelaneha@gmail.com</h5>
+                        </div>
+                   </div>
+    
+                   <div class="row">
+                    <div class="icon">
+                       <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
+                    </div>
+                    <div class="content">
+                       <span>Location</span>
+                       <h5>India</h5>
+                    </div>
+                 </div>
+
+            </div>
+               <button class="download-btn"> <i class="fa fa-download"></i> Download CV</button>
+            </div>
+       </div>
+
+       <!----about section ----->
+       <div class="about">
+           <h1>About Me</h1>
+
+           <p> I'm a btech student at Bipin Tripathi Kumaon Institute Of Technology Dwarahat,Almora.
+            I am a person with great passion. I don't work just to make a living but I wwork because it makes
+            life worth living for.Skilled in HTML,CSS,Java and C.
+          </p>
+
+          <p>
+            My aim is to bring across your message and identity in the most creative way. 
+            I created web design for many famous brand companies.
+          </p>
+          <h2>What I Do !!!</h2>
+          <div class="work">
+             <div class="workbox">
+                 <div class="icon">
+                    <img src="images/ui.svg" alt="">
+                 </div>
+                 <div class="desc">
+                    <h3>UI/UX Designer</h3>
+                    <p>Designers shooting for usable is like a chef shooting for edible. </p>
+                 </div>
+             </div>
+
+             <div class="workbox">
+                <div class="icon">
+                   <img src="images/app.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>App Developement</h3>
+                   <p>Process of creating software applications that run on mobile devices or desktops.
+                     It involves designing user interfaces,writing code,testing features and developing the app
+                     to platforms like Android ,iOS or web browsers.
+                   </p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="icon">
+                   <img src="images/api.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>API Developement</h3>
+                   <p>API development involves creating a set of rules and protocols that allow 
+                     different software systems to communicate with each other.APIs acts as bridges between applications,
+                     enabling data exchange and functionality sharing.
+                   </p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="icon">
+                   <img src="images/web.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>Web Developement</h3>
+                   <p>Web development is the process of building and maintaining websites and web applications.
+                     It includes front-end development and back-end development.
+                   </p>
+                </div>
+            </div>
+          </div>
+       </div>
+   </div>
+</body>
+</html>
